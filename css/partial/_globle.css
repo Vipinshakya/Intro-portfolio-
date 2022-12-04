@@ -1,0 +1,62 @@
+.title-text{
+    font: normal 50px/70px var(--Poppins)
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+.button{
+    background-color: white;
+    color: white;
+    padding: 8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+ margin-right: 10rem;
+
+}
+ .primary-button {
+    font-weight: 500;
+    background-clip: padding-box;
+   background-color: whitesmoke;
+    
+    box-shadow: var(--box-shadow);
+}
+ .primary-button:hover{
+    color: white;
+      
+    background-clip: padding-box;
+    background: var(--gradient-color);
+    transition:ease-in-out .6s ease;
+}
+
+
+.primary-button:after{
+     position: absolute;
+     top: -2px; left:2px;
+     bottom:-2px; left: -2px;
+     z-index: -1;
+     content: "";
+     border-radius: -4px;
+    background: var(--gradient-color);
+    transition:ease-in-out .6s ease;
+}
+
+
+
+
+.secondary-button {
+   
+    font-weight: 500;
+    background-clip: padding-box;
+    color: whitesmoke;
+   
+    box-shadow: var(--box-shadow);
+}
+ .secondary-button:hover{
+    background-color: whitesmoke;
+    background-clip: padding-box;
+    background: var(--gradient-color);
+     transition:all .6s ease;
+}

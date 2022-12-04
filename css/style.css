@@ -1,0 +1,208 @@
+@import url(./font.css);
+@import url(./partial/_variable.css);
+@import url(./partial/_globle.css);
+
+.header-area .main-area .navbar .navbar-brand{
+    padding: 0.2rem 0.2rem;
+}
+.header-area .main-menu .navbar{
+    padding: 1rem 18rem;
+    
+ 
+}
+.header-area .main-menu .nav-item .nav-link{
+padding: 1.7rem;
+font-family:var(--Poppins);
+    font-weight: 500;
+ text-transform: uppercase;
+    color: var(--title-color);
+}
+.header-area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.header-area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+.site-main .site-banner{
+    background: url(https://images.unsplash.com/photo-1527656855834-0235e41779fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzg0fHx3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) 0% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+
+}
+.site-main .site-banner .site-title h3:after{
+
+content: "";
+height: 2px;
+width: 18vh;
+background-color: black;
+display: inline-block;
+margin-left: 5%;
+transform: translateY(-10px);
+
+
+}
+.site-main .site-banner  .banner-image>img{
+    
+    width: 90rem;
+    margin-left: 29rem;
+    
+}
+.site-main .about-area{
+    padding: 8rem 6rem;
+}
+
+ .about-area  h2> span{
+    display: block;
+font: normal bold var(--Poppins);
+letter-spacing: 5px;
+
+}
+
+.para{
+    color:normal var(text-color);
+    font: normal 16px/25px var(--Poppins);
+}
+ .site-main .brand-area  {
+   padding: 1rem 20rem;
+   margin-bottom: 4rem;
+}
+.site-main .brand-area .row .col-lg-4> .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: 4rem 0rem;
+    width: 180px;
+    height: 70px;
+    cursor: pointer;
+   transition: transform .4s ease;
+
+}
+.site-main .brand-area .row .col-lg-4> .single-brand>img{
+    width: 50%;
+
+}
+.site-main .brand-area .row .col-lg-4> .single-brand:hover{
+box-shadow: var(--box-shadow);
+transform: scale(1.1);
+}
+.site-main .brand-area .row .col-lg-4> .single-brand:hover>img{
+    filter: brightness(0.15%);
+}
+.site-main .brand-area .experience-area{
+    padding-left: 1rem;
+}
+.site-main .brand-area .experience-area span{
+    display: block;
+
+}
+.site-main .brand-area .experience-area .years-area{
+    background: url(https://images.unsplash.com/photo-1544991185-13fe5d113fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    padding: 2rem 0rem;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+
+.site-main .brand-area .experience-area .years-area .years{
+     font: normal bold 80px/40px var(--Poppins);
+     color: var(--primary-color);
+     z-index: -2;
+}
+.site-main .brand-area .experience-area .ten{
+    color: aqua;
+    width: 500;
+    font-size: 100px;
+    padding: 1.2rem;
+}
+.site-main .services-area{
+    padding-top: 7rem;
+    margin-top: 12rem;
+}
+.site-main .services-area .services-title{
+    padding: 0.14rem;
+}
+.site-main .services-area .services-title>h1{
+    font-size: 105px;
+}
+.site-main >.services-area .service-title{
+
+    background: rgba(56,56,56,0.973);
+
+    margin: 5rem 5rem;
+    padding: 2rem 0;
+    transition: box-shadow .7s ease;
+
+}
+.site-main > .service-area .services:hover{
+    box-shadow:var(--box-shadow)
+}
+.service-area .container .para{
+    margin-bottom: 10rem;
+}
+.service-area .container h1{
+    color: var(--title-color);
+    padding: 0.2rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+}
+.service-area .container .card-title{
+    padding: 2rem;
+    letter-spacing: 2px;
+    color:var(--title-color);
+    width: 500;
+}
+.project-area .container .row-grid{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    
+   
+    box-sizing: border-box;
+   margin: 2px;
+}
+ .active{
+    background: transparent;
+    border: none;
+    
+}
+.project-area .container .project-title{
+    margin-top: 6rem;
+    font-size: normal 500 var(--title-color);
+    text-transform: uppercase;
+    margin-left: 5rem;
+    
+}
+.project-area .container .button-group{
+    margin-left: 5rem;
+    margin: 5px;
+}
+.project-area .container .our-project .img:hover {
+    filter: brightness(1.1) drop-shadow(1px 2px 30px);
+    
+
+}
+.carousel{
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+   
+  margin-left: 20rem;
+  width: 40%;
+ 
+ 
+}
